@@ -1,0 +1,187 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image:url("https://www.donatekart.com/images/showcase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+	background-color:white;
+  height: 90px;
+  display:flex;
+  max-width: 2000px;
+  
+  border: 9px solid #fc8f29;
+  
+}
+
+nav ul{
+	float:right;
+	margin-right:30px;  
+}
+nav ul li{
+	display:inline-block;
+	line-height:60px;
+	padding-right: 15px;
+}
+nav ul li a{
+	color:black;
+	font-size:18px;
+	padding: 7px 15px;
+	text-transform:uppercase;
+	font-weight: bold;
+}	
+nav ul li a.active,nav ul li a:hover,a button.btn:hover{
+	color: black;
+	background:white;
+}
+.jumbotron
+{
+    background: transparent;
+    color: #ffffff;
+    height: 50%;
+    text-align: center;
+}
+h1{
+    font-size: 500%;
+    margin-top: 15%;
+}
+p{
+    font-size: 300%;
+}
+.buttonDonate{
+  border:1px solid white;
+  color:black;
+  margin: 30px;
+  transition: 0.2s ease;
+  border-radius: 50px;
+  font-size:medium;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+
+}
+
+.buttonDonate:hover{
+  color:gray;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+  
+  .donatebox
+  {
+    background-color: rgba(255, 253, 253, 0.822);
+    border-radius: 10px;
+    padding: 5%;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    margin: 15%;
+  }
+  .donatebox h2
+  {
+    text-align: center;
+    font-size: 170%;
+  }
+  .donatebox .fa-user
+  {
+    margin-bottom: 3px;
+  }
+
+
+ 
+.left img{
+  width: 250px;
+  height: 90px;
+  margin-bottom:25px;
+
+}
+.navbar {
+  background-color:white;
+  height:100px;
+  color:black;
+  text-align: right;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.nav-links{
+  flex: 1;
+  text-align:right;
+}
+
+.ml-auto{
+  margin-top:15px;
+}
+
+.contact-section{
+  padding: 40px 0;
+}
+.contact{
+  color:rgb(247, 239, 239);
+ margin-left:600px;
+}
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin-bottom:400px;
+  margin-left:400px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #fff;
+  padding: 20px 40px;
+  outline: none;
+  color: rgb(24, 22, 22);
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #8ac2fa;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #f87224;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #ec6002;
+}
